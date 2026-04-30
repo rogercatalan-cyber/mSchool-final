@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projecte de Programació</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-content">
+            <h1 class="project-title">🤖 Projecte de Programació 🤖</h1>
+            <p class="project-subtitle">Fet per:Adrian Jurado , Blai Alias, Aitor Lopez, Jordi Clemente, Santiago Ariel Menos i Roger Catalán</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="sticky-nav">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#introduccion">Introducció</a></li>
+                <li><a href="#objetivos">Objectius</a></li>
+                <li><a href="#programacion">Programació</a></li>
+                <li><a href="#resultados">Resultats</a></li>
+                <li><a href="#conclusions">Conclusions</a></li>
+                <li><a href="#documentacion">Documents</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Introduction Section -->
+        <section id="introduccion" class="section">
+            <h2 class="section-title">📖 Introducció</h2>
+            <div class="card">
+                <p>El nostre grup hem creat un projecte anomenat Malparc, en aquesta aplicació tens la funció d’avisar i advertir sobre diferents incidents en l’aparcament,per exemple un coche mal aparcat en un lloc on no toca o mal posicionat en el seu lloc d’apartament,mitjançant eines com les fotos o descripcions de les situacions d’altres usuaris podem ajudar a la comunitat a ser conscient d’un problema tan greu, son petits detalls que poden desencadenar en un gran problema,donant resposta a l'eix de consciència global .El nostre producte es va basar en un projecte anterior vam aprofitar gran part d’aquests recursos i vem millorar les antigues ideas i crear de noves.
+
+</p>
+        </section>
+
+        <!-- Objectives Section -->
+        <section id="objetivos" class="section">
+            <h2 class="section-title">🎯 Objectius</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Objectiu Principal</h3>
+                    <p>L'objectiu principal del projecte es elaborar una aplicació que permeti a la població ser conscient de l'entorn per a la seva seguretat vial.</p>
+                </div>
+                <div class="card">
+                    <h3>Objectius Específics</h3>
+                    <ul>
+                        <li>Detectar errors en l'aparcament</li>
+                        <li>Informar sobre els errors a l'aparcament als usuaris</li>
+                        <li>Crear una aplicació senzilla i facil d'utilitzar i entendre</li>
+                        <li>Validar el funcionament mitjançant proves de l'aplicació</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Programming Section -->
+        <section id="programacion" class="section">
+            <h2 class="section-title">💻 Programació</h2>
+            <div class="card">
+                <h3>MitApp Inventor</h3>
+                <p>Hem utilitzat MitApp Inventor per desenvolupar la interfície de l'aplicació i la lògica de programació.</p>
+            </div>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>📝 Procediment per a utilitzar l'aplicacio</h3>
+                    <ul>
+                        <li>entrar en l'aplicació</li>
+                        <li>Iniciar sessió</li>
+                        <li>Fer una foto en el problema d'aparcament</li>
+                        <li>Escriure l'infracció</li>
+                        <li>Desar la foto </li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section id="resultados" class="section">
+            <h2 class="section-title">📊 Resultats</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>✅ Proves Exitoses</h3>
+                    <ul>
+                        <li>hem provat l'aplicació en diversos dispositius</li>
+                        <li>hem comprovat el funcionament de les diverses funcions de l'aplicació</li>
+                        <li>hem comprovat el funcionament de l'opció de inici de sessió amb diverses comptes</li>
+                    </ul>
+                </div>
+              
+            </div>
+        </section>
+
+        <!-- Conclusions Section -->
+        <section id="conclusions" class="section">
+            <h2 class="section-title">🏁 Conclusions</h2>
+            <div class="card">
+                <h3>Resum del Projecte</h3>
+                <p>El projecte de l'aplicació de malparc s'ha completat exitosament aconseguint tots el objectius plantejats inicialment. L'apliació te la capacitat de fer fotos i enviar-les al telegram de manera automàtica.</p>
+            </div>
+            <div class="cards-grid">
+            </div>
+        </section>
+
+        <!-- Documentation Section - IMPORTANT -->
+        <section id="documentacion" class="section">
+            <h2 class="section-title">📚 Documents</h2>
+            
+            <!-- Desplegable Document -->
+            <div class="document-container">
+                <button class="document-toggle-btn" onclick="toggleDocument(this, 'document-content-1')">
+                    📄 Document Tècnic - Malparc
+                    <span class="toggle-icon">▼</span>
+                </button>
+                
+                <div id="document-content-1" class="document-content" style="display: none;">
+                    <div class="document-inner">
+                        <iframe 
+                            id="document-iframe-1"
+                            src="PlantillaDocumentTcnicJordiAitorSantiBlaiAdri.html" 
+                            title="Document Tècnic MalParc"
+                            style="width: 100%; height: 800px; border: none; border-radius: 8px;">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desplegable Document Lliurament -->
+            <div class="document-container">
+                <button class="document-toggle-btn" onclick="toggleDocument(this, 'document-content-2')">
+                    📄 Document Lliurament - MalP
+                    <span class="toggle-icon">▼</span>
+                </button>
+
+                <div id="document-content-2" class="document-content" style="display: none;">
+                    <div class="document-inner">
+                        <iframe 
+                            id="document-iframe-2"
+                            src="mScoolsAwardsDOCUMENTACIPERALLLIURAMENTDEMALP.html" 
+                            title="Document Lliurament MalP"
+                            style="width: 100%; height: 800px; border: none; border-radius: 8px;">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desplegable Diari de Projecte -->
+            <div class="document-container">
+                <button class="document-toggle-btn" onclick="toggleDocument(this, 'document-content-3')">
+                    📄 Diari de Projecte
+                    <span class="toggle-icon">▼</span>
+                </button>
+
+                <div id="document-content-3" class="document-content" style="display: none;">
+                    <div class="document-inner">
+                        <iframe 
+                            id="document-iframe-3"
+                            src="DIARIDEPROJECTEBlaiAitorAdriJordiSantiRoger.html" 
+                            title="Diari de Projecte"
+                            style="width: 100%; height: 800px; border: none; border-radius: 8px;">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            function toggleDocument(button, contentId) {
+                const content = document.getElementById(contentId);
+                if (!content) return;
+
+                if (content.style.display === 'none') {
+                    content.style.display = 'block';
+                    button.classList.add('active');
+                } else {
+                    content.style.display = 'none';
+                    button.classList.remove('active');
+                }
+            }
+        </script>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>© 2026 Projecte de Robòtica</p>
+        <p>Desenvolupat amb HTML i CSS</p>
+    </footer>
+
+</body>
+</html>
